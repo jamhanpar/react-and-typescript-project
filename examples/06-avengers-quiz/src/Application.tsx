@@ -16,7 +16,7 @@ const Question = ({ question, answer }: QuestionProps) => {
         <span className={`${isHidden ? 'blurred' : 'visible'}`}>{answer}</span>
       </p>
       <footer>
-        <button>Toggle Answer</button>
+        <button onClick={() => toggleHidden(false)}>Toggle Answer</button>
       </footer>
     </article>
   );
