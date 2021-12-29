@@ -1,6 +1,6 @@
 type NameTagProps = {
-  name: string,
-}
+  name: string;
+};
 
 const NameTag = ({ name }: NameTagProps) => {
   return (
@@ -17,6 +17,6 @@ const NameTag = ({ name }: NameTagProps) => {
   );
 };
 
-const Application = () => <NameTag name="James" />;
+const Application = () => <NameTag name="Steve" />;
 
 export default Application;
